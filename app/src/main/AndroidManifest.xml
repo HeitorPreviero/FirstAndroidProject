@@ -27,23 +27,17 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".DrawerActivity"
-            android:exported="true"
-            android:label="@string/title_activity_drawer"
-            android:theme="@style/Theme.MeuPrimeiroAplicativo.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
+            android:name=".MainActivity"
+            android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".DrawerActivity"
+            android:exported="true"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.MeuPrimeiroAplicativo.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
